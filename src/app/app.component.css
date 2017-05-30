@@ -1,0 +1,29 @@
+.container {
+    padding-top: 7rem;
+}
+
+.cruise-container {
+    padding-top: 20%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-align: center;
+}
+
+.cruise { 
+    width: 300px;
+    height: 300px;
+    -webkit-filter: drop-shadow(3px 3px 3px #ccc);
+    filter:         drop-shadow(3px 3px 3px #ccc); 
+    color: white;
+
+}
+
+.cruise:active {
+    transform: translate(3px, 3px);
+    filter: drop-shadow(0px 0px 0px);
+}
+
+.cruise path {
+    fill: white;
+}
+

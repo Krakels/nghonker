@@ -1,0 +1,16 @@
+{
+  "name": "Ng-Honker",
+  "short_name": "Ng-Honker",
+  "icons": [
+    {
+      "src": "assets/icons/icon-512px-512px.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}

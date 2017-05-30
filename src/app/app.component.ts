@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app works!';
+  audio = new Audio('/assets/sound.mp3');
+  playSound() {
+    this.audio.currentTime = 0;
+    this.audio.play();
+  }
 }
